@@ -1,4 +1,4 @@
-/* let js = 'Abdullah';
+ let js = 'Abdullah';
 console.log(2 + 2 + 2 + 2);
 
 let death = "Abdullah is dead";
@@ -50,8 +50,6 @@ const weightMark = (78);
 const heightJohn = (1.76);
 const weightJohn = (92);
 
-*/
-
 
 // Math operators
 const now = 2023
@@ -81,3 +79,49 @@ const trueAge = (ageAnamta >= 20);
 console.log(trueAge);
 
 console.log(now - 2002 > now - 2003);
+
+
+const now = 2023
+const ageAbdullah = now - 2003;
+const ageAnamta = now - 2002;
+
+console.log(now - 2002 > now - 2003);
+
+let x, y;
+x = y = 10 + 30 - 39;
+const aveAge = (ageAbdullah + ageAnamta) / 2
+console.log(x, y, aveAge);
+
+
+//BMI Test 1
+const marksWeight = 78;
+const marksHeight = 1.69;
+
+const johnWeight = 92;
+const johnHeight = 1.95;
+
+const bmiMark = marksWeight / marksHeight ** 2;
+const bmiJohn = johnWeight / johnHeight ** 2;
+
+console.log(bmiMark);
+console.log(bmiJohn);
+
+const markHigherBMI = (bmiMark > bmiJohn);
+
+console.log(markHigherBMI);
+
+//BMI Test 2
+const mark2Weight = 95;
+const mark2Height = 1.88;
+
+const john2Weight = 85;
+const john2Height = 1.76;
+
+const bmiNewMark = (mark2Weight / mark2Height ** 2);
+const bmiNewJohn = (john2Weight / john2Height ** 2);
+
+console.log(bmiNewMark, bmiNewJohn);
+
+const bmiHigherNew = (bmiNewJohn > bmiNewMark);
+
+console.log(bmiHigherNew);
