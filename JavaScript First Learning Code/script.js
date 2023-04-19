@@ -144,3 +144,32 @@ const myDetails = `My name is ${myNameNew} and my date of birth is ${myBirthNew}
 console.log(myDetails);
 
 console.log(`This is the text with out variable, and it's possiable to write it through Templates Literals`);
+
+
+//Ifelse Statments
+
+const age = 14;
+const limitedAge = age >= 18;
+
+if (limitedAge) {
+    console.log(`Abdullah can have gun now 🧨`);
+} else {
+    const leftAge = (18 - age);
+    console.log(`Abdullah can have a gun after ${leftAge} years.`);
+}
+
+
+const abdullahWeight = 105;
+const abdullahHeight = 1.9;
+
+const aliWeight = 95;
+const aliHeight = 1.9;
+
+const abdullahResult = (abdullahWeight / abdullahHeight ** 2);
+const aliResult = (aliWeight / aliHeight ** 2);
+
+if (abdullahResult >= aliResult) {
+    console.log(`Abdullah has ${abdullahResult} and Ali has ${aliResult}`);
+} else {
+    console.log(`Ali has ${aliResult} and Abdullah has ${abdullahResult}`);
+}
