@@ -125,3 +125,22 @@ console.log(bmiNewMark, bmiNewJohn);
 const bmiHigherNew = (bmiNewJohn > bmiNewMark);
 
 console.log(bmiHigherNew);
+
+//Strings
+const myName = 'Abdullah';
+const myBirth = '12 May';
+const myContact = '03180115877';
+
+console.log("My name is " + myName + " and my date of birth is " + myBirth + " and my contact number is " + myContact);
+
+//Templates Literals
+const myNameNew = 'Abdullah';
+const myBirthNew = '12 May';
+const myContactNew = '03180115877';
+
+console.log(`My name is ${myNameNew} and my date of birth is ${myBirthNew} and my contact number is ${myContactNew}`);
+
+const myDetails = `My name is ${myNameNew} and my date of birth is ${myBirthNew} and my contact number is ${myContactNew}`;
+console.log(myDetails);
+
+console.log(`This is the text with out variable, and it's possiable to write it through Templates Literals`);
