@@ -173,3 +173,21 @@ if (abdullahResult >= aliResult) {
 } else {
     console.log(`Ali has ${aliResult} and Abdullah has ${abdullahResult}`);
 }
+
+//Type Conversion
+const year = ('2023');
+console.log(Number(year) + 2);
+console.log(year + 18);
+console.log(Number('xd') + 10);
+
+
+//Type Coercion
+console.log('Hi I am Abdullah ' + 19 + ' Old boy');
+console.log(`Hi I am Abdullah a 19 Year old Man`);
+console.log('20' + '20' + '10');
+console.log('53' - '40' - '3');
+console.log('10' * '50');
+console.log('10' / '2');
+
+let a = '1' + 4;
+console.log(a - 4);
