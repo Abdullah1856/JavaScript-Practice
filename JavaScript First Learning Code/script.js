@@ -191,3 +191,5 @@ console.log('10' / '2');
 
 let a = '1' + 4;
 console.log(a - 4);
+
+//Truthy and Falsy Values
