@@ -194,9 +194,36 @@ console.log(a - 4);
 
 //Truthy and Falsy Values
 //5 falsy values, 0, '', undefined, null, NaN
-//5 falsy values, 0, '', undefined, null, NaN
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean(''));
 console.log(Boolean('String'));
 console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log(`There is money.`);
+} else {
+    console.log(`There is no money.`);
+}
+
+let xd;
+if (xd) {
+    console.log(`This is DEFINED`);
+} else {
+    console.log('This is NOT-DEFINED');
+}
+
+let xd1 = '';
+if (xd1) {
+    console.log(`This is DEFINED`);
+} else {
+    console.log('This is NOT-DEFINED');
+}
+
+let xd2 = '1856';
+if (xd2) {
+    console.log(`This is DEFINED`);
+} else {
+    console.log('This is NOT-DEFINED');
+}
