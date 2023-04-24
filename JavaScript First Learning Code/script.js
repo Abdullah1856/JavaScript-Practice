@@ -193,3 +193,4 @@ let a = '1' + 4;
 console.log(a - 4);
 
 //Truthy and Falsy Values
+//5 falsy values, 0, '', undefined, null, NaN
