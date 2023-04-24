@@ -227,3 +227,13 @@ if (xd2) {
 } else {
     console.log('This is NOT-DEFINED');
 }
+
+//Equality Operators
+let ageAbdullah = 16;
+
+if (ageAbdullah >= 18) {
+    console.log(`Abdullah is Adult`);
+}
+else {
+    console.log(`Abdullah is not adult`);
+}
