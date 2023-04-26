@@ -249,7 +249,7 @@ console.log(agePrompt);
 console.log(typeof agePrompt);
 
 if (agePrompt === 11) {
-    console.log("What is your age")
+    console.log("What is your age");
 }
 
 if (agePrompt == 11) {
@@ -257,11 +257,11 @@ if (agePrompt == 11) {
 }
 
 if (agePrompt === Number(11)) {
-    console.log("What is your age")
+    console.log("What is your age");
 }
 
 if (agePrompt === String(11)) {
-    console.log("What is your age")
+    console.log("What is your age");
 }
 
 //Prompt-With-Default-Number-Value
@@ -270,7 +270,7 @@ console.log(agesPrompt);
 console.log(typeof agesPrompt);
 
 if (agesPrompt === 11) {
-    console.log("What is your age")
+    console.log("What is your age");
 }
 
 if (agesPrompt == 11) {
@@ -278,9 +278,26 @@ if (agesPrompt == 11) {
 }
 
 if (agesPrompt === Number(11)) {
-    console.log("What is your age")
+    console.log("What is your age");
 }
 
 if (agesPrompt === String(11)) {
-    console.log("What is your age")
+    console.log("What is your age");
 }
+
+const ageNew = Number(prompt("Write your age"));
+console.log(ageNew);
+
+if (ageNew === 18) {
+    console.log("You can be a member now");
+}
+else if (ageNew === 60) {
+    console.log("You can't register your self as a member now sooner you going to die")
+}
+else if (ageNew === 17) {
+    console.log("your age is under 18, you can't fit as a member, Thanks")
+} else {
+    console.log("Why not your age is 22, 25, 27, 28 or something else");
+}
+
+if (ageNew !== 18) console.log("Why not 18");
