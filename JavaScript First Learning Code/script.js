@@ -301,3 +301,11 @@ else if (ageNew === 17) {
 }
 
 if (ageNew !== 18) console.log("Why not 18");
+
+//Logical Operators
+const abdullahAge = true;
+const abdullahDOB = false;
+
+console.log(abdullahAge && abdullahDOB); //& Operators
+console.log(abdullahAge || abdullahDOB); //Or Operators
+console.log(!abdullahAge); // Not Operators
