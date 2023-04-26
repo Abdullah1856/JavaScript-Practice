@@ -243,3 +243,23 @@ if (age === 79) console.log(`Your are near to Die`);
 
 const ageXd = '81';
 if (ageXd == 81) console.log(`Your lived Enough`);
+
+const agePrompt = prompt("What is your age");
+console.log(agePrompt);
+console.log(typeof agePrompt);
+
+if (agePrompt === 11) {
+    console.log("What is your age")
+}
+
+if (agePrompt == 11) {
+    console.log("What is your age")
+}
+
+if (agePrompt === Number(11)) {
+    console.log("What is your age")
+}
+
+if (agePrompt === String(11)) {
+    console.log("What is your age")
+}
