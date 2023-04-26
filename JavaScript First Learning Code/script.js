@@ -263,3 +263,24 @@ if (agePrompt === Number(11)) {
 if (agePrompt === String(11)) {
     console.log("What is your age")
 }
+
+//Prompt-With-Default-Number-Value
+const agesPrompt = Number(prompt("What is your age"));
+console.log(agesPrompt);
+console.log(typeof agesPrompt);
+
+if (agesPrompt === 11) {
+    console.log("What is your age")
+}
+
+if (agesPrompt == 11) {
+    console.log("What is your age")
+}
+
+if (agesPrompt === Number(11)) {
+    console.log("What is your age")
+}
+
+if (agesPrompt === String(11)) {
+    console.log("What is your age")
+}
