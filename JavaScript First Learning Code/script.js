@@ -323,3 +323,27 @@ if (abdullahAge && abdullahDOB) {
 } else {
     console.log(`You can't enroll as a member now`);
 }
+
+//Or base operators example
+if (abdullahAge || abdullahDOB) {
+    console.log('You can now enroll as a member');
+} else {
+    console.log(`You can't enroll as a member now`);
+}
+
+//Not base operators example
+if (abdullahAge || abdullahDOB) {
+    console.log('You can now enroll as a member');
+} else {
+    console.log(`You can't enroll as a member now`);
+}
+
+const ageLimitIncrease = false; //c
+
+console.log(abdullahAge || abdullahDOB || ageLimitIncrease);
+
+if (abdullahAge && abdullahDOB && !ageLimitIncrease) {
+    console.log('You can now be a member');
+} else {
+    console.log('You can not become member for now')
+}
