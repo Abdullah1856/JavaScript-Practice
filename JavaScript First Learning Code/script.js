@@ -347,3 +347,32 @@ if (abdullahAge && abdullahDOB && !ageLimitIncrease) {
 } else {
     console.log('You can not become member for now')
 }
+
+const dolphins = 96 + 108 + 89;
+console.log(`Score Dolphins: ${dolphins}`);
+
+const koalas = 88 + 91 + 110;
+console.log(`Score Koalas ${koalas}`);
+
+if (dolphins > koalas) {
+    console.log('Dolphins win the Trophy');
+} else {
+    console.log('Koalas win the Trophy');
+}
+console.log(` `);
+
+console.log(`With average method`);
+
+console.log(` `);
+
+const scoreDolphins = (96 + 108 + 89) / 3
+console.log(`Score Dolphins: ${scoreDolphins}`);
+
+const ScoreKoalas = (88 + 91 + 110) / 3
+console.log(`Score Koalas ${ScoreKoalas}`);
+
+if (scoreDolphins > ScoreKoalas) {
+    console.log('Dolphins win the Trophy');
+} else {
+    console.log('Koalas win the Trophy');
+}
