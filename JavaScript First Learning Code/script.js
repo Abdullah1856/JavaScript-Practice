@@ -309,3 +309,17 @@ const abdullahDOB = false;
 console.log(abdullahAge && abdullahDOB); //& Operators
 console.log(abdullahAge || abdullahDOB); //Or Operators
 console.log(!abdullahAge); // Not Operators
+
+const ageLimit = abdullahAge && abdullahDOB;
+if (ageLimit) {
+    console.log('You can now enroll as a member');
+} else {
+    console.log(`You can't enroll as a member now`);
+}
+
+//For best it's good to to add conditoins in if/else rather creating variables for consitions
+if (abdullahAge && abdullahDOB) {
+    console.log('You can now enroll as a member');
+} else {
+    console.log(`You can't enroll as a member now`);
+}
