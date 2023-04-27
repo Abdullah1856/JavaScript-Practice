@@ -376,3 +376,30 @@ if (scoreDolphins > ScoreKoalas) {
 } else {
     console.log('Koalas win the Trophy');
 }
+
+const teamDolphin = (97 + 112 + 101) / 3
+const teamKoalas = (109 + 95 + 106) / 3
+console.log(`Team Dolphin Score: ${teamDolphin}
+Team Koalas Score ${teamKoalas}`);
+
+const minimumScoreToWin = 100;
+
+if (teamDolphin > teamKoalas && minimumScoreToWin) {
+    console.log('Dolphin Win');
+} else if (teamDolphin === teamKoalas) {
+    console.log('Both teams wins, no one going to have the trophy! AAAAHHHH :(');
+} else if (teamKoalas > teamDolphin && minimumScoreToWin) {
+    console.log('Koalas Wins');
+} else {
+    console.log('Dolphin Lose');
+}
+
+if (teamDolphin >= teamKoalas && minimumScoreToWin) {
+    console.log('Dolphin Win');
+} else if (teamDolphin === teamKoalas) {
+    console.log('Both teams wins, no one going to have the trophy! AAAAHHHH :(');
+} else if (teamKoalas >= teamDolphin && minimumScoreToWin) {
+    console.log('Koalas Wins');
+} else {
+    console.log('Dolphin Lose');
+} 
