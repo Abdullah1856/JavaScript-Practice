@@ -403,3 +403,5 @@ if (teamDolphin >= teamKoalas && minimumScoreToWin) {
 } else {
     console.log('Dolphin Lose');
 } 
+
+//Switch Statement
