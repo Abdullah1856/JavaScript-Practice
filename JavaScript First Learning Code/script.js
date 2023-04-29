@@ -405,3 +405,5 @@ if (teamDolphin >= teamKoalas && minimumScoreToWin) {
 } 
 
 //Switch Statement
+
+const day = 'Monday';
