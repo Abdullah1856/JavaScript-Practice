@@ -408,3 +408,4 @@ if (teamDolphin >= teamKoalas && minimumScoreToWin) {
 
 const day = 'Monday';
 //switch (Monday)
+//For the damn streaks
