@@ -54,9 +54,9 @@ const weightJohn = (92);
 // Math operators
 const now = 2023
 const ageAbdullah = now - 2003;
-const ageAnamta = now - 2002;
-console.log(ageAbdullah, ageAnamta);
-console.log(ageAbdullah * 2 / 9, ageAnamta * 10 / 898, 6 ** 8);
+const ageSheru = now - 2002;
+console.log(ageAbdullah, ageSheru);
+console.log(ageAbdullah * 2 / 9, ageSheru * 10 / 898, 6 ** 8);
 
 
 // Assignment operators
@@ -72,10 +72,10 @@ x--;
 console.log(x);
 
 //Comparison operators
-console.log(ageAnamta > ageAbdullah);
-console.log(ageAnamta >= 20);
+console.log(ageSheru > ageAbdullah);
+console.log(ageSheru >= 20);
 
-const trueAge = (ageAnamta >= 20);
+const trueAge = (ageSheru >= 20);
 console.log(trueAge);
 
 console.log(now - 2002 > now - 2003);
@@ -83,13 +83,13 @@ console.log(now - 2002 > now - 2003);
 
 const now = 2023
 const ageAbdullah = now - 2003;
-const ageAnamta = now - 2002;
+const ageSheru = now - 2002;
 
 console.log(now - 2002 > now - 2003);
 
 let x, y;
 x = y = 10 + 30 - 39;
-const aveAge = (ageAbdullah + ageAnamta) / 2
+const aveAge = (ageAbdullah + ageSheru) / 2
 console.log(x, y, aveAge);
 
 
